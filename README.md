@@ -10,6 +10,7 @@ Course: Introduction to NLP
 | Muhammad Abdullah | L1F23BSCS0328 | |
 | Muhammad Freed Alam | L1F23BSCS0337 | |
 | Nida Mukthar | L1F23BSCS1127 | |
+| Muhammad Baar | L1F23BSCS0334 | muhammad-baar |
 
 **Team name:** ETERNALS
 
