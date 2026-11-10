@@ -1,7 +1,7 @@
 """Load the raw IMDB 50K movie-review dataset.
 
 Usage (from the project root):
-    python src/load_data.py
+ python src/load_data.py
 
 The raw CSV is NOT committed to git. If it is missing from data/, this script
 tries to download it from Kaggle with `kagglehub`. If that is not possible,
