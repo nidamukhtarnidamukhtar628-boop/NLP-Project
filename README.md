@@ -33,6 +33,10 @@ This repository covers Phase 1: loading a public text dataset, exploring it, com
 
 The raw data is **not** committed to this repository. It is downloaded or loaded by `src/load_data.py`.
 
+Dataset Description
+
+Our project uses the IMDb Dataset of 50K Movie Reviews, obtained from Kaggle. This dataset contains 50,000 English movie reviews, divided equally into 25,000 positive reviews and 25,000 negative reviews. It consists of two main columns: review, which contains the actual text written by users about movies, and sentiment, which identifies whether the review expresses a positive or negative opinion. The dataset is used for Natural Language Processing (NLP) and sentiment analysis, where our goal is to process movie reviews, identify meaningful words and patterns, and understand how different text representation techniques work. Throughout this project, we will use the dataset for text exploration, tokenization, text cleaning, Bag of Words (BoW), TF-IDF, N-grams, Word2Vec (CBOW and Skip-gram), and fastText embeddings. The same dataset will also be used in the later stages of the project for machine-learning and deep-learning experiments.
+
 ## Repository Structure
 
 ```
