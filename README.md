@@ -24,8 +24,8 @@ This repository covers Phase 1: loading a public text dataset, exploring it, com
 
 | Field | Details |
 |---|---|
-| Name | |
-| Source / Link | |
+| Name | | IMDB dataset
+| Source / Link | | https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 | Size | <number of rows / documents> |
 | Language | <English / Urdu / ...> |
 | Licence | <e.g. CC BY 4.0> |
