@@ -8,7 +8,7 @@ Course: Introduction to NLP
 | Team Name | Roll Number | GitHub Username |
 |---|---|---|
 | Muhammad Abdullah | L1F23BSCS0328 | |
-| Muhammad Freed Alam | L1F23BSCS0337 | |
+| Muhammad Freed Alam | L1F23BSCS0337 | freedalam
 | Nida Mukthar | L1F23BSCS1127 | |
 | Muhammad Baar | L1F23BSCS0334 | muhammad-baar |
 
