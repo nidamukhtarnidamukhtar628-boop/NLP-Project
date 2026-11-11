@@ -146,6 +146,12 @@ The cleaned dataset is saved by `src/cleaning.py` to `output/cleaned_data.csv`. 
 - Commit messages are short and descriptive.
 - The final submission is tagged `assignment-1`.
 
+  | Muhammad Abdullah | L1F23BSCS0328 |tokenization,cleaning |
+| Muhammad Freed Alam | L1F23BSCS0337 | freedalam| sourcing of data cleaning and load data
+| Nida Mukthar | L1F23BSCS1127 |environment setup of git and Readme update |
+| Muhammad Baar | L1F23BSCS0334 | muhammad-baar |dataset setup and finding |
+| Muhammad Mahmood Akhter|L1F23BSCS0334|output setup and testing |
+
 ## Contribution Statement
 
 | Member | Contribution |
