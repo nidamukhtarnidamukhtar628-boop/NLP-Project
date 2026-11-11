@@ -1,0 +1,10 @@
+{
+  "rows_raw": 50000,
+  "duplicates_removed": 418,
+  "rows_empty_after_cleaning_removed": 0,
+  "rows_final": 49582,
+  "vocab_before_whitespace_tokens": 438729,
+  "vocab_after_cleaning": 79320,
+  "vocab_reduction_pct": 81.9,
+  "avg_tokens_after_cleaning": 121.2
+}
