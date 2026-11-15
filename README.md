@@ -16,21 +16,20 @@ Course: Introduction to NLP
 
 ## Project Overview
 
-<2-3 sentences: what your project is about and why you chose this topic.>
-
+We build a **sentiment classifier for movie reviews**. Phase 1 (this repo) loads the IMDB review dataset, explores it,
+compares tokenizers, and produces a clean corpus that Phase 2 reuses.
 This repository covers Phase 1: loading a public text dataset, exploring it, comparing tokenization methods, and building a reusable cleaning pipeline that produces an analysis-ready corpus for Phase 2.
 
 ## Dataset
 
 | Field | Details |
 |---|---|
-| Name | | IMDB dataset
-| Source / Link | | https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
-| Size | <number of rows / documents> |
-| Language | <English / Urdu / ...> |
-| Licence | <e.g. CC BY 4.0> |
-| Prediction target | <e.g. sentiment label, category> |
-
+| Name | IMDB Dataset of 50K Movie Reviews |
+| Source / Link | https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews (originally Maas et al., 2011) |
+| Size | 50,000 reviews (49,582 after removing 418 exact duplicates) |
+| Language | English |
+| Licence | `<check the Kaggle page and write it here>` |
+| Prediction target | `sentiment`: positive / negative (25,000 each in the raw data) |
 The raw data is **not** committed to this repository. It is downloaded or loaded by `src/load_data.py`.
 
 Dataset Description
