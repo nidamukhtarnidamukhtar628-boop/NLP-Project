@@ -276,12 +276,10 @@ Count-based methods return a scipy sparse matrix (a dense array with `dense=True
 |---|---|---|
 | Muhammad Abdullah | L1F23BSCS0328 | Part A: BoW, TF-IDF, N-grams, hand-worked numerical |
 | Muhammad Freed Alam | L1F23BSCS0337 | Part B: Word2Vec CBOW, Skip-gram, fastText (shared with Nida) |
-| Nida Mukthar | L1F23BSCS1127 | Part B: Word2Vec CBOW, Skip-gram, fastText (shared with Freed) |
+| Nida Mukthar | L1F23BSCS1127 | Part B: Word2Vec CBOW, Skip-gram, fastText (shared with Freed),readme updates |
 | Muhammad Baar | L1F23BSCS0334 | Part C: probing and comparison |
 | Muhammad Mahmood Akhter | L1F23BSCS0138 | Part D: saved models, vectorize interface |
 
 ## Submission
 
 - Repository: https://github.com/nidamukhtarnidamukhtar628-boop/NLP-Project
-- Phase 1 tag: https://github.com/nidamukhtarnidamukhtar628-boop/NLP-Project/releases/tag/assignment-1
-- Phase 2 tag: https://github.com/nidamukhtarnidamukhtar628-boop/NLP-Project/releases/tag/assignment-2
