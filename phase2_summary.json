@@ -1,0 +1,90 @@
+{
+  "corpus_documents": 49582,
+  "bow": {
+    "shape": [
+      49582,
+      79320
+    ],
+    "nonzero": 4660849,
+    "sparsity_pct": 99.8815,
+    "fit_seconds": 2.1,
+    "file_mb": 0.7
+  },
+  "tfidf": {
+    "shape": [
+      49582,
+      79320
+    ],
+    "nonzero": 4660849,
+    "sparsity_pct": 99.8815,
+    "fit_seconds": 2.3,
+    "file_mb": 0.8
+  },
+  "tfidf_ngram": {
+    "shape": [
+      49582,
+      182415
+    ],
+    "nonzero": 7308496,
+    "sparsity_pct": 99.9192,
+    "fit_seconds": 10.8,
+    "file_mb": 2.0
+  },
+  "cbow": {
+    "vocab_size": 29485,
+    "vector_size": 100,
+    "train_seconds": 78.3,
+    "file_mb": 12.7,
+    "params": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 5,
+      "epochs": 10,
+      "negative": 5,
+      "sample": 0.001,
+      "workers": 1,
+      "seed": 42,
+      "sg": 0
+    },
+    "corpus_tokens": 6007695
+  },
+  "skipgram": {
+    "vocab_size": 29485,
+    "vector_size": 100,
+    "train_seconds": 280.1,
+    "file_mb": 12.7,
+    "params": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 5,
+      "epochs": 10,
+      "negative": 5,
+      "sample": 0.001,
+      "workers": 1,
+      "seed": 42,
+      "sg": 1
+    },
+    "corpus_tokens": 6007695
+  },
+  "fasttext": {
+    "vocab_size": 29485,
+    "vector_size": 100,
+    "train_seconds": 482.2,
+    "file_mb": 52.7,
+    "params": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 5,
+      "epochs": 10,
+      "negative": 5,
+      "sample": 0.001,
+      "workers": 1,
+      "seed": 42,
+      "sg": 1,
+      "min_n": 3,
+      "max_n": 6,
+      "bucket": 100000
+    },
+    "corpus_tokens": 6007695
+  }
+}

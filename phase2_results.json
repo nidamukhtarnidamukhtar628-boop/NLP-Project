@@ -1,0 +1,525 @@
+{
+  "bow": {
+    "shape": [
+      49582,
+      79320
+    ],
+    "nonzero": 4660849,
+    "zeros": 3928183391,
+    "sparsity_pct": 99.8815,
+    "sparse_mb": 37.5,
+    "dense_gb": 15.7,
+    "distinct_per_doc_mean": 94.0
+  },
+  "tfidf": {
+    "shape": [
+      49582,
+      79320
+    ],
+    "idf_min": 1.203,
+    "idf_max": 11.118,
+    "example_orig_id": 5,
+    "high": [
+      {
+        "word": "selflessness",
+        "count in review": 1,
+        "doc_freq": 4,
+        "idf": 10.20199966430664,
+        "tf-idf weight": 0.2930000126361847
+      },
+      {
+        "word": "lukas",
+        "count in review": 1,
+        "doc_freq": 42,
+        "idf": 8.050000190734863,
+        "tf-idf weight": 0.23100000619888306
+      },
+      {
+        "word": "midget",
+        "count in review": 1,
+        "doc_freq": 70,
+        "idf": 7.548999786376953,
+        "tf-idf weight": 0.21699999272823334
+      },
+      {
+        "word": "dedication",
+        "count in review": 1,
+        "doc_freq": 78,
+        "idf": 7.441999912261963,
+        "tf-idf weight": 0.21400000154972076
+      },
+      {
+        "word": "grandma",
+        "count in review": 1,
+        "doc_freq": 81,
+        "idf": 7.40500020980835,
+        "tf-idf weight": 0.21299999952316284
+      }
+    ],
+    "low": [
+      {
+        "word": "not",
+        "count in review": 1,
+        "doc_freq": 40457,
+        "idf": 1.2029999494552612,
+        "tf-idf weight": 0.03500000014901161
+      },
+      {
+        "word": "one",
+        "count in review": 1,
+        "doc_freq": 28661,
+        "idf": 1.5479999780654907,
+        "tf-idf weight": 0.04399999976158142
+      },
+      {
+        "word": "make",
+        "count in review": 1,
+        "doc_freq": 25731,
+        "idf": 1.656000018119812,
+        "tf-idf weight": 0.04800000041723251
+      },
+      {
+        "word": "like",
+        "count in review": 1,
+        "doc_freq": 24441,
+        "idf": 1.7070000171661377,
+        "tf-idf weight": 0.04899999871850014
+      },
+      {
+        "word": "see",
+        "count in review": 1,
+        "doc_freq": 24406,
+        "idf": 1.7089999914169312,
+        "tf-idf weight": 0.04899999871850014
+      }
+    ],
+    "common": [
+      {
+        "word": "not",
+        "doc_freq": 40457,
+        "idf (sklearn, smoothed)": 1.2029999494552612,
+        "ln(N/df) (textbook)": 0.203
+      },
+      {
+        "word": "movie",
+        "doc_freq": 32158,
+        "idf (sklearn, smoothed)": 1.4329999685287476,
+        "ln(N/df) (textbook)": 0.433
+      },
+      {
+        "word": "film",
+        "doc_freq": 29556,
+        "idf (sklearn, smoothed)": 1.5169999599456787,
+        "ln(N/df) (textbook)": 0.517
+      },
+      {
+        "word": "one",
+        "doc_freq": 28661,
+        "idf (sklearn, smoothed)": 1.5479999780654907,
+        "ln(N/df) (textbook)": 0.548
+      },
+      {
+        "word": "make",
+        "doc_freq": 25731,
+        "idf (sklearn, smoothed)": 1.656000018119812,
+        "ln(N/df) (textbook)": 0.656
+      }
+    ]
+  },
+  "ngram": [
+    {
+      "n-gram range": "(1,1)",
+      "features": 79320,
+      "non-zeros": 4660849,
+      "sparsity %": 99.8815,
+      "features seen once %": 40.6392,
+      "features with df>=5": 27136,
+      "sparsity % (df>=5)": 99.6596,
+      "sparse MB": 37.4851,
+      "fit seconds": 1.9342
+    },
+    {
+      "n-gram range": "(1,2)",
+      "features": 2681743,
+      "non-zeros": 10492778,
+      "sparsity %": 99.9921,
+      "features seen once %": 75.493,
+      "features with df>=5": 182415,
+      "sparsity % (df>=5)": 99.9192,
+      "sparse MB": 84.1406,
+      "fit seconds": 13.8902
+    },
+    {
+      "n-gram range": "(1,3)",
+      "features": 7973854,
+      "non-zeros": 16383655,
+      "sparsity %": 99.9959,
+      "features seen once %": 88.3966,
+      "features with df>=5": 213757,
+      "sparsity % (df>=5)": 99.928,
+      "sparse MB": 131.2676,
+      "fit seconds": 34.9758
+    }
+  ],
+  "ngram_order_counts": {
+    "1": 79320,
+    "2": 2602423,
+    "3": 5292111
+  },
+  "top_bigrams": [
+    [
+      "movie not",
+      4926
+    ],
+    [
+      "not even",
+      4418
+    ],
+    [
+      "could not",
+      3991
+    ],
+    [
+      "film not",
+      3714
+    ],
+    [
+      "look like",
+      3685
+    ]
+  ],
+  "top_trigrams": [
+    [
+      "movie ever see",
+      913
+    ],
+    [
+      "worst movie ever",
+      747
+    ],
+    [
+      "not waste time",
+      548
+    ],
+    [
+      "film ever see",
+      455
+    ],
+    [
+      "movie ever make",
+      384
+    ]
+  ],
+  "tfidf_ngram": {
+    "shape": [
+      49582,
+      182415
+    ],
+    "sparsity_pct": 99.9192
+  },
+  "handworked_tfidf": {
+    "idf_primary": 1.9163,
+    "raw": 3.8326,
+    "l2_norm": 5.4201,
+    "normalised": 0.7071
+  },
+  "oov": [
+    {
+      "word": "fantastik",
+      "kind": "OOV misspelling",
+      "in vocab?": "no",
+      "cbow": "KeyError: not in vocabulary",
+      "skipgram": "KeyError: not in vocabulary",
+      "fasttext": "fantastic (0.85), fantastical (0.75), fantastically (0.72), brilliant (0.72), marvelous (0.71)"
+    },
+    {
+      "word": "masterpeice",
+      "kind": "OOV misspelling",
+      "in vocab?": "no",
+      "cbow": "KeyError: not in vocabulary",
+      "skipgram": "KeyError: not in vocabulary",
+      "fasttext": "masterclass (0.83), masterpiece (0.81), masterworks (0.81), masterstroke (0.80), masterwork (0.80)"
+    },
+    {
+      "word": "terriblee",
+      "kind": "OOV misspelling",
+      "in vocab?": "no",
+      "cbow": "KeyError: not in vocabulary",
+      "skipgram": "KeyError: not in vocabulary",
+      "fasttext": "terrible (0.90), horrible (0.82), awful (0.80), horrendous (0.75), terribleness (0.74)"
+    },
+    {
+      "word": "brilliantt",
+      "kind": "OOV misspelling",
+      "in vocab?": "no",
+      "cbow": "KeyError: not in vocabulary",
+      "skipgram": "KeyError: not in vocabulary",
+      "fasttext": "brilliant (0.92), brilliantly (0.85), masterful (0.80), superb (0.79), brill (0.78)"
+    },
+    {
+      "word": "aweful",
+      "kind": "OOV misspelling",
+      "in vocab?": "no",
+      "cbow": "KeyError: not in vocabulary",
+      "skipgram": "KeyError: not in vocabulary",
+      "fasttext": "rueful (0.73), tuneful (0.71), joyful (0.70), eyeful (0.67), joyous (0.66)"
+    },
+    {
+      "word": "boring",
+      "kind": "OOV (lemmatised to 'bore' in Phase 1)",
+      "in vocab?": "no",
+      "cbow": "KeyError: not in vocabulary",
+      "skipgram": "KeyError: not in vocabulary",
+      "fasttext": "trivialboring (0.87), boringly (0.80), loring (0.79), booring (0.79), uninteresting (0.62)"
+    },
+    {
+      "word": "performace",
+      "kind": "RARE, in vocabulary (count 5)",
+      "in vocab?": "yes",
+      "cbow": "deewana (0.72), rhea (0.72), katy (0.71), reverand (0.70), kandice (0.70)",
+      "skipgram": "kebbel (0.78), bernhardt (0.77), squirrelly (0.77), janney (0.76), renaldo (0.76)",
+      "fasttext": "performance (0.80), performer (0.80), perform (0.71), outperform (0.71), groenendaal (0.69)"
+    }
+  ],
+  "neighbours": [
+    {
+      "query": "good",
+      "model": "cbow",
+      "top-8 neighbours": "great (0.76), decent (0.74), bad (0.71), nice (0.66), ok (0.64), alright (0.63), okay (0.61), acceptable (0.59)"
+    },
+    {
+      "query": "good",
+      "model": "skipgram",
+      "top-8 neighbours": "decent (0.78), great (0.77), bad (0.75), nice (0.73), kamerling (0.73), ok (0.72), fine (0.71), unbelieveable (0.71)"
+    },
+    {
+      "query": "good",
+      "model": "fasttext",
+      "top-8 neighbours": "decent (0.76), great (0.76), bad (0.74), nice (0.73), okay (0.70), fine (0.70), excellent (0.68), ok (0.67)"
+    },
+    {
+      "query": "bad",
+      "model": "cbow",
+      "top-8 neighbours": "awful (0.77), terrible (0.76), horrible (0.76), good (0.71), lousy (0.70), suck (0.66), stupid (0.65), crappy (0.64)"
+    },
+    {
+      "query": "bad",
+      "model": "skipgram",
+      "top-8 neighbours": "awful (0.79), terrible (0.79), horrible (0.78), lousy (0.76), good (0.75), laughingly (0.74), wack (0.71), sux (0.71)"
+    },
+    {
+      "query": "bad",
+      "model": "fasttext",
+      "top-8 neighbours": "awful (0.79), horrible (0.78), terrible (0.77), lousy (0.74), good (0.74), crappy (0.69), suck (0.67), godawful (0.66)"
+    },
+    {
+      "query": "actor",
+      "model": "cbow",
+      "top-8 neighbours": "actress (0.73), performer (0.63), cast (0.62), act (0.61), comedian (0.50), role (0.49), talent (0.48), performance (0.48)"
+    },
+    {
+      "query": "actor",
+      "model": "skipgram",
+      "top-8 neighbours": "actress (0.73), cast (0.72), reputable (0.69), performer (0.69), sandeep (0.68), amruta (0.67), act (0.67), sawant (0.67)"
+    },
+    {
+      "query": "actor",
+      "model": "fasttext",
+      "top-8 neighbours": "actress (0.73), cast (0.69), performace (0.68), performer (0.67), thespian (0.67), speakman (0.67), act (0.63), chapa (0.62)"
+    },
+    {
+      "query": "funny",
+      "model": "cbow",
+      "top-8 neighbours": "hilarious (0.80), amuse (0.72), humorous (0.70), scary (0.63), comical (0.63), entertain (0.62), joke (0.62), laugh (0.61)"
+    },
+    {
+      "query": "funny",
+      "model": "skipgram",
+      "top-8 neighbours": "hilarious (0.84), amuse (0.76), humorous (0.73), uproariously (0.72), aint (0.71), splittingly (0.70), punchlines (0.70), laugh (0.70)"
+    },
+    {
+      "query": "funny",
+      "model": "fasttext",
+      "top-8 neighbours": "hilarious (0.82), humorous (0.76), amuse (0.74), hillarious (0.72), joke (0.69), laugh (0.68), hilariously (0.67), funnier (0.67)"
+    },
+    {
+      "query": "horror",
+      "model": "cbow",
+      "top-8 neighbours": "slasher (0.81), exploitation (0.63), genre (0.61), scary (0.58), sf (0.57), gore (0.57), chiller (0.55), splatter (0.55)"
+    },
+    {
+      "query": "horror",
+      "model": "skipgram",
+      "top-8 neighbours": "slasher (0.78), dunwich (0.76), omnibus (0.72), genre (0.70), anatomie (0.70), categorise (0.69), okul (0.69), chiller (0.68)"
+    },
+    {
+      "query": "horror",
+      "model": "fasttext",
+      "top-8 neighbours": "slasher (0.79), horrorfest (0.78), omnibus (0.71), genre (0.69), schlock (0.69), nunsploitation (0.67), anthology (0.67), hostel (0.67)"
+    }
+  ],
+  "similarities": [
+    {
+      "expected": "similar",
+      "pair": "good - great",
+      "cbow": 0.76,
+      "skipgram": 0.77,
+      "fasttext": 0.76,
+      "tf-idf columns": 0.244
+    },
+    {
+      "expected": "similar",
+      "pair": "actor - actress",
+      "cbow": 0.73,
+      "skipgram": 0.73,
+      "fasttext": 0.73,
+      "tf-idf columns": 0.158
+    },
+    {
+      "expected": "similar",
+      "pair": "funny - hilarious",
+      "cbow": 0.8,
+      "skipgram": 0.84,
+      "fasttext": 0.82,
+      "tf-idf columns": 0.168
+    },
+    {
+      "expected": "similar",
+      "pair": "movie - film",
+      "cbow": 0.87,
+      "skipgram": 0.88,
+      "fasttext": 0.87,
+      "tf-idf columns": 0.26
+    },
+    {
+      "expected": "antonyms",
+      "pair": "good - bad",
+      "cbow": 0.71,
+      "skipgram": 0.75,
+      "fasttext": 0.74,
+      "tf-idf columns": 0.277
+    },
+    {
+      "expected": "unrelated",
+      "pair": "actor - refrigerator",
+      "cbow": -0.22,
+      "skipgram": 0.12,
+      "fasttext": 0.25,
+      "tf-idf columns": 0.005
+    },
+    {
+      "expected": "unrelated",
+      "pair": "movie - tuesday",
+      "cbow": -0.23,
+      "skipgram": 0.37,
+      "fasttext": 0.29,
+      "tf-idf columns": 0.012
+    },
+    {
+      "expected": "unrelated",
+      "pair": "director - banana",
+      "cbow": -0.13,
+      "skipgram": 0.17,
+      "fasttext": 0.15,
+      "tf-idf columns": 0.019
+    },
+    {
+      "expected": "unrelated",
+      "pair": "plot - pizza",
+      "cbow": -0.03,
+      "skipgram": 0.26,
+      "fasttext": 0.3,
+      "tf-idf columns": 0.012
+    }
+  ],
+  "analogies": [
+    {
+      "analogy": "actor - man + woman",
+      "expected": "actress",
+      "model": "cbow",
+      "top-5": "actress (0.73), performer (0.53), cast (0.50), unattractive (0.42), act (0.42)"
+    },
+    {
+      "analogy": "actor - man + woman",
+      "expected": "actress",
+      "model": "skipgram",
+      "top-5": "actress (0.79), performer (0.63), cast (0.62), tripplehorn (0.62), zudina (0.61)"
+    },
+    {
+      "analogy": "actor - man + woman",
+      "expected": "actress",
+      "model": "fasttext",
+      "top-5": "actress (0.80), zudina (0.61), cast (0.60), performer (0.59), performace (0.57)"
+    },
+    {
+      "analogy": "comedy - funny + scary",
+      "expected": "horror",
+      "model": "cbow",
+      "top-5": "horror (0.64), thriller (0.64), suspense (0.57), chiller (0.54), scare (0.53)"
+    },
+    {
+      "analogy": "comedy - funny + scary",
+      "expected": "horror",
+      "model": "skipgram",
+      "top-5": "horror (0.72), thriller (0.68), suspense (0.67), glut (0.66), scare (0.63)"
+    },
+    {
+      "analogy": "comedy - funny + scary",
+      "expected": "horror",
+      "model": "fasttext",
+      "top-5": "horror (0.73), thriller (0.64), fright (0.64), slasher (0.63), supernatural (0.63)"
+    },
+    {
+      "analogy": "terrible - bad + good",
+      "expected": "great / excellent",
+      "model": "cbow",
+      "top-5": "decent (0.69), great (0.69), excellent (0.63), horrible (0.62), fine (0.62)"
+    },
+    {
+      "analogy": "terrible - bad + good",
+      "expected": "great / excellent",
+      "model": "skipgram",
+      "top-5": "great (0.75), decent (0.74), excellent (0.74), fantastic (0.70), superb (0.68)"
+    },
+    {
+      "analogy": "terrible - bad + good",
+      "expected": "great / excellent",
+      "model": "fasttext",
+      "top-5": "decent (0.73), great (0.73), excellent (0.71), fantastic (0.69), okay (0.65)"
+    },
+    {
+      "analogy": "director - actor + actress",
+      "expected": "(no clear target)",
+      "model": "cbow",
+      "top-5": "filmmaker (0.50), maker (0.48), gastaldi (0.47), producer (0.45), vipul (0.44)"
+    },
+    {
+      "analogy": "director - actor + actress",
+      "expected": "(no clear target)",
+      "model": "skipgram",
+      "top-5": "kusama (0.64), karyn (0.62), guinevere (0.59), filmmaker (0.58), balaguero (0.57)"
+    },
+    {
+      "analogy": "director - actor + actress",
+      "expected": "(no clear target)",
+      "model": "fasttext",
+      "top-5": "nuri (0.59), directory (0.59), directorial (0.59), schroeder (0.58), marceau (0.58)"
+    }
+  ],
+  "sanity_accuracy": {
+    "bow": 0.8365,
+    "tfidf": 0.843,
+    "tfidf_ngram": 0.8465,
+    "cbow": 0.85,
+    "skipgram": 0.8595,
+    "fasttext": 0.86
+  },
+  "comparison_oov_norms": {
+    "bow": 0.0,
+    "tfidf": 0.0,
+    "tfidf_ngram": 0.0,
+    "cbow": 0.0,
+    "skipgram": 0.0,
+    "fasttext": 2.05
+  }
+}
